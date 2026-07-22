@@ -2,7 +2,7 @@ services:
   mem0:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: mem0.Dockerfile
     command: ["sh", "start.sh"]
     environment:
       - PYTHONDONTWRITEBYTECODE=1
